@@ -34,9 +34,9 @@ Sodoku generating isn't easy.  Its equivalent to the graph coloring problem, whi
 
 On my computer, 3x3 block size takes on average 0.1 s, while 4x4 block size takes about 6 minutes.
   My implementation starts over when it fails instead of using more sophisticated backtracking, 
-  but rather than improving the algorithm I think I'd like to try sending the job to the GPU in 
-  parallel to beat the odds.
-<br \>
+  but rather than improving the algorithm I think It would be fun to try sending the job to the GPU
+  to parallelize the generation attempts.
+<br />
 
 <img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sodoku4.png" />
 
