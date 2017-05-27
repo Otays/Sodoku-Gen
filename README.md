@@ -16,14 +16,13 @@ __Difficulty Level:__
 Typical sodoku puzzles are ranked using five levels of difficulty. 
 Controlling the difficulty of a sodoku is a difficult problem, usually
 involving a "hole digging" method and/or the dancing links algorithm.
-
-<br /><br />
+<br />
 
 I developed this project for fun as an exercise without doing research, so my implementation
  is more simplistic.  The supported difficulties are Easy and Normal, where Normal puzzles 
  involve an extra pruning phase.  It's important to note that without the "hole digging" method,
  there is a limit to how much pruning increases difficulty. 
-<br />
+<br /><br />
 
 __Mass production:__
 Sodoku Gen can mass produce these puzzles and their corresponding solutions. <br /><br />
