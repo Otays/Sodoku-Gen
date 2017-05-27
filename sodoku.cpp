@@ -3,8 +3,7 @@
  *
  *	Description: 
  *		This program creates sodoku puzzles!
- *		Serial code written for compatability with g++ (GCC) 4.8.5
- *		Parallel code written for CUDA (nvcc compiler)
+ *		Written for compatability with g++ (GCC) 4.8.5
  *
  *	Author: Ben Pogrund
  *
