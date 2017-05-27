@@ -4,7 +4,7 @@ This program generates Sodoku puzzles of using a naive backtracking method.
 
 ## Options ##
 __Block size:__
-A standard sodoku has a block size of 3.  Sodoku Gen accepts block sizes of 2, 3, or 4.<br /><br />
+A standard sodoku has a block size of 3x3.  Sodoku Gen accepts a block width of 2, 3, or 4.<br /><br />
 
 <img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sodoku1.png" />
 
