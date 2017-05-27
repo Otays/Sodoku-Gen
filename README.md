@@ -11,12 +11,14 @@ A standard sodoku has a block size of 3x3.  I've written Sodoku Gen to accept a 
 <img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sodoku2.png" />
 
 <br />
+
 __Difficulty Level:__
 Typical sodoku puzzles are ranked using five levels of difficulty. 
 Controlling the difficulty of a sodoku is a difficult problem, usually
 involving a "hole digging" method and/or the dancing links algorithm.
 
-<br />
+<br /><br />
+
 I developed this project for fun as an exercise without doing research, so my implementation
  is more simplistic.  The supported difficulties are Easy and Normal, where Normal puzzles 
  involve an extra pruning phase.  It's important to note that without the "hole digging" method,
