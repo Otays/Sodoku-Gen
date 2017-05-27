@@ -60,10 +60,10 @@ int main()
 	
 	// Set up phase
 	prompt();								// Take user input 
-	gettimeofday(&start, NULL);				// substart timer
+	gettimeofday(&start, NULL);				// full runtime timer
 	short total_files = output_total;
 	do {
-		gettimeofday(&substart, NULL);		// substart timer
+		gettimeofday(&substart, NULL);		// single puzzle timer
 		allocate_puzzle_memory();
 		init_memory();
 		
