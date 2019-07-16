@@ -6,9 +6,9 @@ This program generates Sudoku puzzles of using a naive backtracking method.
 __Block size:__
 A standard sudoku has a block size of 3x3.  I've written Sudoku Gen to accept a block width of 2, 3, or 4.<br /><br />
 
-<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku1.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sudoku1.png" />
 
-<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku2.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sudoku2.png" />
 
 <br />
 
@@ -27,7 +27,7 @@ I developed this project for fun as an exercise without doing research, so my im
 __Mass production:__
 Sudoku Gen can mass produce these puzzles and their corresponding solutions. <br /><br />
 
-<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku3.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sudoku3.png" />
 
 <br /><br />
 
@@ -42,7 +42,7 @@ On my computer, 3x3 block size takes on average 0.1 s, while 4x4 block size take
   to parallelize the generation attempts.
 <br />
 
-<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku4.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sudoku4.png" />
 
 
 __Conclusion:__
