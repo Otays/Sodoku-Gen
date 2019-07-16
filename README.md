@@ -1,20 +1,20 @@
-# Sodoku Gen (1.0.0) README #
+# Sudoku Gen (1.0.0) README #
 
-This program generates Sodoku puzzles of using a naive backtracking method.
+This program generates Sudoku puzzles of using a naive backtracking method.
 
 ## Options ##
 __Block size:__
-A standard sodoku has a block size of 3x3.  I've written Sodoku Gen to accept a block width of 2, 3, or 4.<br /><br />
+A standard sudoku has a block size of 3x3.  I've written Sudoku Gen to accept a block width of 2, 3, or 4.<br /><br />
 
-<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sodoku1.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku1.png" />
 
-<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sodoku2.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku2.png" />
 
 <br />
 
 __Difficulty Level:__
-Typical sodoku puzzles are ranked using five levels of difficulty. 
-Controlling the difficulty of a sodoku is a difficult problem, usually
+Typical sudoku puzzles are ranked using five levels of difficulty. 
+Controlling the difficulty of a sudoku is a difficult problem, usually
 involving a "hole digging" method and/or the dancing links algorithm.
 <br />
 
@@ -25,15 +25,15 @@ I developed this project for fun as an exercise without doing research, so my im
 <br /><br />
 
 __Mass production:__
-Sodoku Gen can mass produce these puzzles and their corresponding solutions. <br /><br />
+Sudoku Gen can mass produce these puzzles and their corresponding solutions. <br /><br />
 
-<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sodoku3.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku3.png" />
 
 <br /><br />
 
 ## Analysis ##
 __Performance:__
-Sodoku generating isn't easy.  Its equivalent to the graph coloring problem, which is NP-Complete
+Sudoku generating isn't easy.  Its equivalent to the graph coloring problem, which is NP-Complete
  with respect to the block size.<br /><br />
 
 On my computer, 3x3 block size takes on average 0.1 s, while 4x4 block size takes about 6 minutes.
@@ -42,7 +42,7 @@ On my computer, 3x3 block size takes on average 0.1 s, while 4x4 block size take
   to parallelize the generation attempts.
 <br />
 
-<img src="https://raw.githubusercontent.com/Otays/Sodoku-Gen/master/pics/Sodoku4.png" />
+<img src="https://raw.githubusercontent.com/Otays/Sudoku-Gen/master/pics/Sudoku4.png" />
 
 
 __Conclusion:__
@@ -51,7 +51,7 @@ This was fun.
 
 ## Required files: ##
  - makefile
- - sodoku.cpp
+ - sudoku.cpp
  - colorlogs.h
  - colorlogs.c
   
@@ -59,12 +59,3 @@ This was fun.
   
   
   
-  
-  
-  
-
-
-
-
-
-
